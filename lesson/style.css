@@ -1,0 +1,31 @@
+@import url(grid.css);
+
+.block{
+padding: 10px;
+    background: red;
+    border:  10px double gray;
+    margin: 30px;
+}
+.header{
+    background: pink;
+}
+.content{
+    background: cadetblue;
+    width: 70%;
+    float: left;
+}
+.sidebar{
+    background: red;
+    width: 30%;
+    float: left;
+}
+.footer{
+    background: blue;
+    clear: both;
+}
+.wrapper {
+    background: #000;
+    min-width: 200px;
+    max-width: 1200px;
+    overflow: hidden; 
+}
