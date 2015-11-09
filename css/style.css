@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Bad+Script|Lobster|Ruslan+Display|Exo+2:900italic&subset=latin,cyrillic);
+body {
+    font-family: Arial, sans-serif;
+    background-color: coral;
+    color: darkred;
+    float: left;
+
+}
+body.background{
+    background: url(../IMG/fon.jpg) no-repeat;
+    background-size: cover;
+}
+
+img.size {
+    background: auto;
+
+}
+
+h1 {
+    font-family: 'Bad Script', cursive;
+    color: antiquewhite;
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    margin-left: 60px;
+    margin-right: 60px;
+    border-left: double coral;
+    float: left;
+    width: auto;
+
+}
+table {
+    background-color: coral;
+}
+
+blockquote {
+    font-family: Verdana, Helvetica, Arial, sans-serif, cursive;
+    font-style: italic;
+    color: darkseagreen;
+}
+
+
+
