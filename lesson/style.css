@@ -1,31 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 @import url(grid.css);
-
-.block{
-padding: 10px;
-    background: red;
-    border:  10px double gray;
-    margin: 30px;
-}
-.header{
-    background: pink;
-}
-.content{
-    background: cadetblue;
-    width: 70%;
-    float: left;
-}
-.sidebar{
-    background: red;
-    width: 30%;
-    float: left;
-}
-.footer{
-    background: blue;
-    clear: both;
-}
+@import "menu.css";
 .wrapper {
-    background: #000;
     min-width: 200px;
-    max-width: 1200px;
-    overflow: hidden; 
+    max-width: 1400px;
+}
+
+
+
+.test {
+    font-size: 2em;
+    font-style: italic;
+}
+.test span {
+    font-size: 1em;
+    font-style: normal;
+}
+
+body {
+    background: grey;
+    height: 1000px;
+
+}
+.form-control {
+width: 100%
+}
+
+.modal-window {
+    background: whitesmoke;
+    color: aqua;
+    padding: 3.125em;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    margin: auto
+}
+
+.overlay {
+    background: blue;
+    position: fixed;
+     width: 50%;
 }
