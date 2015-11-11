@@ -1,0 +1,41 @@
+@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
+@import "reset.css";
+@import "grid.css";
+
+.wrapper {
+    min-width: 200px;
+    max-width: 1400px;
+}
+
+.header {
+    background: goldenrod;
+    height: 70px;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.col-5 {
+    background: url("../IMG/image.jpg")
+}
+.col-9 {
+    font-size: medium;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    background: whitesmoke;
+}
+
+.sidebar {
+    background: gainsboro;
+    align-;
+    box-shadow: black;
+}
+
+.footer {
+    background: gray;
+    text-align: center;
+}
