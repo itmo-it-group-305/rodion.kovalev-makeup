@@ -16,8 +16,14 @@
     font-weight: bold;
     text-align: center;
 }
-.col-5 {
-    background: url("../IMG/image.jpg")
+.abc {
+    height: 300px;
+}
+/*.col-5 {
+    background: url("../IMG/image.jpg");
+
+    height: 300px;*/
+
 }
 .col-9 {
     font-size: medium;
@@ -38,4 +44,10 @@
 .footer {
     background: gray;
     text-align: center;
+}
+
+.col-12 {
+    background: url("../IMG/image.jpg");
+
+    height: 300px;
 }
