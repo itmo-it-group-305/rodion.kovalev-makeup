@@ -1,0 +1,60 @@
+ul {
+    background: gold;
+}
+.menu-horizontal {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    padding: 0.5em;
+    background: burlywood;
+
+
+}
+.menu a:hover {
+    text-decoration: aqua;
+}
+.menu-horizontal li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.top-menu a {
+    color: black;
+    font-family: sans-serif, cursive;
+    font-style: italic;
+}
+.top-menu a:hover {
+    color: brown;
+}
+.menu li {
+    margin: 0.625em;
+    text-shadow: white 2px 2px;
+}
+ol {
+    display: block;
+    padding: 0.5em;
+}
+ol li {
+    margin-left: 4em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 4em;
+    text-align: justify;
+}
+#position {
+    position: relative;
+}
+#position div.menu_two {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+}
+#position:hover div.menu_two {
+    display: block;
+}
