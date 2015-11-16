@@ -1,0 +1,17 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    z-index: 999
+}
+.modal-window {
+    position: absolute;
+    width: 20%;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    background: #fff;
+    top: 50%;
+}

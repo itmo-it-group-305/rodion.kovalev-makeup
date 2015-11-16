@@ -6,13 +6,79 @@
     <title>Блок верстка</title>
 </head>
 <body>
-<div class="block">lorem ipsum dolor</div>
-<div class="block" style="margin-top: 100px">lorem ipsum dolor</div>
 <div class="wrapper">
-    <div class="header">header</div>
-    <div class="content">content</div>
-    <div class="sidebar">sidebar</div>
-    <div class="footer">footer<br>footer<br>footer</div>
+    <header>
+        <div class="row">
+            <nav>
+                <ul class="menu menu-horizontal top-menu">
+                    <li><a href="#top_games">Топ</a></li>
+                    <li><a href="#games">Игры</a></li>
+                    <li><a href="#emulators">Эмуляторы</a></li>
+                    <li><a href="#history">История</a></li>
+                    <li><a href="#about">О проекте</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="row">
+        <section class="col-12">
+            <h2>Топ игр</h2>
+            <div>
+        </section>
+        <section class="col-6 col-lg-3">
+            <h3>Super Mario Bros</h3>
+            <p>
+                <img src="../IMG/bomb.jpg" alt="Super Mario Bro">
+            </p>
+        </section>
+        <section class="col-6 col-lg-3">
+            <h3>Super Mario Bros</h3>
+            <p>
+                <img src="../IMG/bomb.jpg" alt="Super Mario Bro">
+            </p>
+        </section>
+        <section class="col-6 col-lg-3">
+            <h3>Super Mario Bros</h3>
+            <p>
+                <img src="../IMG/bomb.jpg" alt="Super Mario Bro">
+            </p>
+        </section>
+        <section class="col-6 col-lg-3">
+            <h3>Super Mario Bros</h3>
+            <p>
+                <img src="../IMG/bomb.jpg" alt="Super Mario Bro">
+            </p>
+
+        </section>
+    </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-6">
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <label class="col-2" for="question_name">Имя:</label>
+                        <div class="col-10">
+                            <input class="form-control" id="question_name" name="question[name]" type="text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label class="col-2" for="question_text">Вопрос:</label>
+                        <div class="col-10">
+                            <textarea class="form-control" id="question_text" name="question[text]" type="text"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-10 offset-2">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
 </div>
+
+
 </body>
 </html>

@@ -1,43 +1,48 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
-@import url(grid.css);
+@import url(//fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans:400,400italic,600,600italic,700,700italic&subset=latin,cyrillic);
+@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
+@import "reset.css";
+@import "grid.css";
 @import "menu.css";
+
 .wrapper {
     min-width: 200px;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
-
-
-.test {
-    font-size: 2em;
-    font-style: italic;
-}
-.test span {
-    font-size: 1em;
-    font-style: normal;
-}
 
 body {
-    background: grey;
-    height: 1000px;
-
+    background: #000;
+    color: #fff;
 }
+
+.form-row label {
+    text-align: right;
+}
+
 .form-control {
-width: 100%
-}
-
-.modal-window {
-    background: whitesmoke;
-    color: aqua;
-    padding: 3.125em;
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    margin: auto
+    width: 100%;
 }
 
 .overlay {
-    background: blue;
+    background: rgba(255, 0, 255, 0.7);
+    height: 100%;
+    left: 0;
     position: fixed;
-     width: 50%;
+    /*text-align: center;*/
+    top: 0;
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+@media only screen and (min-width: 1200px) {
+    
+}
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
 }

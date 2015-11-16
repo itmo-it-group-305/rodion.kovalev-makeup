@@ -30,6 +30,7 @@ ul {
 }
 .top-menu a:hover {
     color: brown;
+    background-color: aqua;
 }
 .menu li {
     margin: 0.625em;
@@ -51,9 +52,10 @@ ol li {
 }
 #position div.menu_two {
     position: absolute;
-    left: 200px;
-    top: 0;
+    bottom: 400px;
+    top: 100%;
     display: none;
+    width: 270px;
 }
 #position:hover div.menu_two {
     display: block;

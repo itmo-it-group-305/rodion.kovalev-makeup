@@ -23,3 +23,7 @@
 .col-10 { width: 83.3333333333%; }
 .col-11 { width: 91.6666666667%; }
 .col-12 { width: 100%; }
+
+.offset1 {margin-left: 500px}
+.offset2 {margin-left: 500px}
+.offset3 {margin-left: 400px}

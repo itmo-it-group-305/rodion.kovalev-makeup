@@ -1,28 +1,110 @@
 @import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
 @import "reset.css";
 @import "grid.css";
+@import "main_menu.css";
+@import "../css/modal.css";
 
+@media only screen and (max-width: 799px) and (min-width: 300px) {
+    .col {
+        width: 50%;
+    }
+    .wrapper {
+        background:red;
+
+    }
+}
+body {
+    padding-left: 3%;
+    padding-right: 3%;
+    background: #F1F8E0;
+    width: 100%;
+    overflow: auto;
+    min-width: 500px;
+}
+
+.color {
+    background: darkgray;
+}
 .wrapper {
     min-width: 200px;
     max-width: 1400px;
 }
 
+hr {
+    background: red;
+    border: none;
+    height: 5px;
+}
 .header {
     background: goldenrod;
-    height: 70px;
+    height: 2em;
     color: antiquewhite;
     font-style: italic;
-    font-size: large;
     font-weight: bold;
     text-align: center;
+    font-size: x-large;
+
 }
-.abc {
+.picture {
+    background: url("../IMG/love1.jpg");
+    background-size: 80em 300px;
     height: 300px;
 }
-/*.col-5 {
-    background: url("../IMG/image.jpg");
+h2 {
+    font: bold 1.2em Verdana, Tahoma, Arial, Helvetica, sans-sarif;
+    padding-bottom: 20px;
+    padding-top: 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+h1 {
+    letter-spacing: 0.2em;
+    text-shadow: black 1px 1px;
+}
+p.base {
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 150%;
+    color: black;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
 
-    height: 300px;*/
+}
+blockquote {
+    text-align: center;
+    margin: 2em;
+}
+p.bottom {
+    margin-bottom: 20px;
+}
+.image3 {
+    background: url("../IMG/phone.jpg") no-repeat left top;
+    vertical-align: middle;
+    height: 300px;
+    background-size: 320px 300px;
+}
+.image4 {
+    background: url("../IMG/meeting.jpg") no-repeat left top;
+    vertical-align: middle;
+    height: 300px;
+    background-size: 320px 300px;
+}
+.image5 {
+    background: url("../IMG/bond.jpg") no-repeat left top;
+    vertical-align: middle;
+    height: 400px;
+    background-size: 340px 400px;
+}
+.image6 {
+    background: url("../IMG/venc.jpg") no-repeat left top;
+    vertical-align: middle;
+    height: 400px;
+    background-size: 600px 500px
+}
+em {
+    font-style: italic;
 
 }
 .col-9 {
@@ -31,23 +113,41 @@
     font-family: Arial, sans-serif;
 }
 
-.content {
-    background: whitesmoke;
-}
-
-.sidebar {
-    background: gainsboro;
-    align-;
-    box-shadow: black;
-}
 
 .footer {
     background: gray;
     text-align: center;
 }
+.picture1 {
+    background: url("../IMG/loser.jpg");
+    height: 250px;
+    background-size: 350px 250px;
+}
+strong {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+hr.wide {
+    background: red;
+    border: none;
+    height: 10px;
 
-.col-12 {
-    background: url("../IMG/image.jpg");
+}
+.no {
+    text-decoration: none;
+    color: red;
+}
+.no:hover {
+    text-decoration: overline;
+}
+.q {
+    box-shadow: 0 0 50px red;
+    border-radius: 16px;
+    margin-top: 10px;
+}
 
-    height: 300px;
+.text {
+    text-align: center;
 }
