@@ -1,0 +1,223 @@
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>OKDOTHIS</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300italic,300,900|Open+Sans:400,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
+  <link href="https://share.okdothis.com/assets/application-65272ff0fd6945fd92af00ce1f9fc7f7.css" media="screen" rel="stylesheet" />
+  <script src="https://share.okdothis.com/assets/application-504099c7593b988bf01262b6597108d0.js"></script>
+
+  
+
+
+</head>
+<body>
+<div class="wrapper wrapper-interior">
+
+  <div class="header clearfix">
+    <div class="nav">
+      <ul class="clearfix">
+        <li>
+          
+        </li>
+
+        <li>
+          <a href="/photos/trending">Trending</a>
+        </li>
+
+        <li>
+          <a href="/photos">Recent</a>
+        </li>
+
+        <li>
+          <a href="/discover">Discover</a>
+        </li>
+
+        <li>
+          <a href="/today">Do of the Day</a>
+        </li>
+      </ul>
+
+      <div class="nav-submenu">
+        <ul>
+            <li><a href="/categories/art-and-design">Art &amp; Design</a></li>
+            <li><a href="/categories/cars-and-transportation">Cars &amp; Transportation</a></li>
+            <li><a href="/categories/family">Family</a></li>
+            <li><a href="/categories/fashion">Fashion</a></li>
+            <li><a href="/categories/food-and-drink">Food &amp; Drink</a></li>
+            <li><a href="/categories/funny">Funny</a></li>
+            <li><a href="/categories/holidays-and-events">Holidays &amp; Events</a></li>
+            <li><a href="/categories/home-life">Home Life</a></li>
+            <li><a href="/categories/kids">Kids</a></li>
+        </ul>
+        <ul>
+            <li><a href="/categories/life-highlights">Life Highlights</a></li>
+            <li><a href="/categories/love">Love</a></li>
+            <li><a href="/categories/music">Music</a></li>
+            <li><a href="/categories/outdoors-and-nature">Outdoors &amp; Nature</a></li>
+            <li><a href="/categories/pets-and-animals">Pets &amp; Animals</a></li>
+            <li><a href="/categories/photography">Photography</a></li>
+            <li><a href="/categories/portraits">Portraits</a></li>
+            <li><a href="/categories/selfies">Selfies</a></li>
+            <li><a href="/categories/sports">Sports</a></li>
+        </ul>
+        <ul>
+            <li><a href="/categories/street">Street</a></li>
+            <li><a href="/categories/technology">Technology</a></li>
+            <li><a href="/categories/travel">Travel</a></li>
+            <li><a href="/categories/weddings">Weddings</a></li>
+            <li><a href="/categories/words-and-writing">Words &amp; Writing</a></li>
+            <li><a href="/categories/work-life">Work Life</a></li>
+            <li><a href="/categories/other">Other</a></li>
+        </ul>
+      </div><!-- /.nav-submenu -->
+
+    </div><!-- /.nav -->
+
+
+    <a href="#" class="logo">OKDOTHIS</a>
+
+    <div class="header-right">
+
+      <a href="/login">
+        <div class="btn btn-login">
+          LOG IN
+        </div><!-- /.btn btn-login -->
+      </a>
+
+      <div class="search">
+        <form action="/search" method="get">
+          <input type="text" class="search-field" name="query" value="Search DOs and People">
+          <button type="submit" class="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+        </form>
+      </div><!-- /.search -->
+    </div><!-- /.header-right -->
+
+    <div class="header-info">
+        <strong>404 error</strong>
+
+    </div>
+
+    <div class="header-info-mobile">
+      <a href="https://itunes.apple.com/us/app/okdothis/id670597573?ls=1&mt=8">Download the App</a> | <a href="">Open in App</a>
+    </div><!-- /.header-info-mobile -->
+
+  </div><!-- /.header -->
+
+
+  
+<div class="profile">
+
+<div class="profile-main">
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-12">
+
+        <div class="profile-thumb">
+          <img alt="Acda4d04 b552 471c 85f6 e83cd4834dab" src="https://okdothis.imgix.net/user/profile_image/acda4d04-b552-471c-85f6-e83cd4834dab.jpg?sat=-100" title="This guy is fixing it RIGHT NOW" />
+        </div><!-- /.profile-thumb -->
+
+        <div class="profile-data">
+          <h1>We're in the dark!</h1>
+          <h5>We can't seem to find the page you're looking for. Are you sure you typed the URL correctly?</h5>
+        </div><!-- /.profile-data -->
+
+      </div><!-- /.col-sm-12 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+
+</div><!-- /.profile-main -->
+
+<div class="profile-summary">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0">
+
+      </div><!-- /.col-sm-12 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+
+</div><!-- /.profile-summary -->
+
+</div><!-- /.profile -->
+
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+
+          <div class="footer-inner clearfix">
+            <div class="footer-links pull-right">
+              <a href="https://itunes.apple.com/us/app/okdothis/id670597573?ls=1&mt=8" class="btn-appstore" target="_blank">Available on the iPhone App Store</a>
+              <a href="/about" class="btn">WHAT IS OKDOTHIS?</a>
+            </div><!-- /.footer-links pull-right -->
+
+            <div class="nav-footer">
+  <ul>
+    <li><a href="http://help.okdothis.com/">Support</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/jobs">Jobs</a></li>
+    <li><a href="/newsletter">Newsletter</a></li>
+    <li><a href="/terms">Terms &amp; Conditions</a></li>
+    <li><a href="/privacy">Privacy Policy</a></li>
+    <!--<li><a href="#">Guidelines</a></li>-->
+    <li><a href="http://blog.okdothis.com/">Blog</a></li>
+  </ul>
+</div><!-- /.nav-footer -->
+
+
+            <p>©2015 OKDOTHIS</p>
+
+          </div><!-- /.footer-inner -->
+
+        </div><!-- /.col-sm-12 -->
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.footer -->
+
+</div><!-- /.wrapper -->
+
+<div class="popup-overlay"></div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45859461-2', 'okdothis.com');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+
+  var _tsq = _tsq || [];
+  _tsq.push(["setAccountName", "okdothis"]);
+  _tsq.push(["fireHit", "javascript_tracker", []]);
+
+  (function() {
+  function z(){
+  var s = document.createElement("script");
+  s.type = "text/javascript";
+  s.async = "async";
+  s.src = window.location.protocol + "//cdn.tapstream.com/static/js/tapstream.js";
+  var x = document.getElementsByTagName("script")[0];
+  x.parentNode.insertBefore(s, x);
+  }
+  if (window.attachEvent)
+  window.attachEvent("onload", z);
+  else
+  window.addEventListener("load", z, false);
+  })();
+
+</script>
+
+</html>

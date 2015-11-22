@@ -1,0 +1,162 @@
+@import "finalgrid.css";
+@import "../css/reset.css";
+@import "css/font-awesome-4.4.0/css/font-awesome.css";
+@font-face {
+    font-family: Novecentowide;
+    font-style: normal;
+    font-weight: 700;
+    src: url(novecentowide-demibold-webfont.woff) format('woff');
+}
+@font-face {
+    font-family: Novecentowide;
+    font-style: normal;
+    font-weight: 400;
+    src: url(novecentowide-medium-webfont.woff) format('woff');
+}
+
+p {
+
+    ;
+    line-height: 1.5;
+    padding: 10px 10px 10px 20px;
+
+}
+
+
+
+
+
+.background {
+    height: 100%;
+    background: #C0C0C0
+}
+.background2 {
+    background: whitesmoke;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 55%;
+}
+.background3 {
+    background: whitesmoke;
+    height: 44em;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.margin1 {
+    margin-left: 20px;
+}
+.padding {
+    padding: 40px 40px 30px 40px;
+    text-align: center;
+    width: 100%;
+}
+.padding1 {
+    padding: 0 10px 10px 10px;
+}
+.menu-horizontal {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    padding: 0.5em;
+    background: white;
+
+    }
+li {
+    list-style: none;
+}
+.padding3 {
+    margin-left: 320px;
+
+}
+ul a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em;
+    background: white;
+    color: #000000;
+}
+
+.menu a:before {
+    content: "/";
+    margin: 10px;
+
+}
+
+
+.menu a:hover {
+    text-decoration: gainsboro;
+}
+.menu-horizontal li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.top-menu a {
+    color: black;
+    font-style: italic;
+    font-family: Novecentowide;
+}
+.top-menu a:hover {
+    color: darkgray;
+
+}
+.menu li {
+    margin: 0.625em;
+    text-shadow: white 2px 2px;
+}
+
+
+.padding2 {
+    padding: 20px 40px;
+    text-align: center;
+
+}
+hr {
+
+    background-color: #D6D6D6;
+    border: 0;
+    height: 0;
+    border-top: 1px dotted rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 88%;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+h2 {
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+.header {
+    padding-top: 20px;
+    height: 70px;
+    background: white;
+
+}
+.
+
+
+body {
+background: #C0C0C0;
+}
