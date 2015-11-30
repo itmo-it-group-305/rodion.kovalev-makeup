@@ -76,7 +76,7 @@ var num = numbers.toString();
 console.log(num);
 
 for (var ii = 0; ii < num.length; ii++) {
-    document.write(num[i] + " ");
+    document.write(num[ii] + " ");
 }
 
 //task 5
@@ -89,7 +89,10 @@ for (var ii = 0; ii < num.length; ii++) {
 //Для вывода использовать document.write("ваш сформированный html")
 
 //решение работает только с исходным .html файлом, поскольку там настроен text-align
-var height = window.prompt("Enter height of triangle");
+
+
+
+var height = window.prompt("введи высоту треугольника");
 height = parseInt(height);
 
 for (var i = 0; i < height; i++) {
@@ -109,6 +112,7 @@ y = parseInt(y);
 var z = window.prompt("Enter variable z");
 z = parseInt(z);
 
+console.log ("");
 
 if (x > y && y > z) {
     console.log(z, y, x);
@@ -128,3 +132,33 @@ else if (y > z && z > x) {
 else if (y > x && x > z) {
     console.log(z, x, y);
 }
+//task 6
+//Заданы два массива
+//A = [ 12, 4, 3, 10, 1, 20 ]  B = [-3, -7, -100, -33]
+//необходимо их объединить в один массив C добавив массив B  в конец(в начало) A.
+
+a = [ 12, 4, 3, 10, 1, 20 ];
+b = [-3, -7, -100, -33];
+var c = a.concat(b);
+var d= b.concat(a);
+alert(c);
+alert(d);
+
+
+//task 3
+//Задан массив  - [12,4,3,10,1,20]. Удалить из него наименьшее и наибольшее значение. См. оператор delete
+
+var arr = [12,4,3,10,1,20];
+var min = arr[0], max = 0;
+
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] < min){
+        min = arr[i];
+    }
+    if (arr[i] > max){
+        max = arr[i];
+    }
+}
+
+delete arr[arr.indexOf(min)];
+delete arr[arr.indexOf(max)];
