@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <div>
+        <div>
+            <textarea name="chat" id="chat" cols="50px" rows="10px"></textarea>
+
+            <div>
+                <input type="submit" value="отправить сообщение">
+            </div>
+
+                <div>
+                <ul id="message">
+                </ul>
+                </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    var parent = document.getElementById('chat');
+    if(type="submit"){
+        var message = document.createElement('p');
+        message.innerHTML = ' ';
+        parent.appendChild(message);
+    }
+    </script>
+</body>
