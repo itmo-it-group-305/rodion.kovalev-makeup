@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form>
+    <select id="select" name="city">
+        <option value="1">Санкт-Петербург</option>
+        <option value="2" selected>Москва</option>
+    </select>
+<input type="text" id="input" name='input' placeholder="Нижний Новгород">
+<input type="button" id="button" value="добавить город">
+
+
+</form>
+<script type="text/javascript">
+
+
+    var button = document.getElementById('button');
+    button.addEventListener('click',handler, true);
+
+    function handler (){
+        var parent =  document.getElementById('select');
+        var input = document.getElementById('input').value;
+        var newCity = document.createElement('newCity');
+        newCity.innerHTML = '<option>' + input+'</option>';
+        parent.appendChild(newCity);
+
+    }
+
+</script>
+</body>
+</html>

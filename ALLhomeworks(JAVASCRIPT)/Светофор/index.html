@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="body" class="body">
+    <div id="red" class="red"></div>
+    <div id="yellow" class="yellow"></div>
+    <div id="green" class="green"></div>
+</div>
+
+
+    <input id="button" type="button" value="Turn Me ON!">
+
+
+<script type="text/javascript">
+    var     redRound = document.getElementById('red'),
+            yellowRound = document.getElementById('yellow'),
+            greenRound = document.getElementById('green');
+
+    var button = document.getElementById('button');
+    button.addEventListener('click', handler);
+
+    function handler() {
+
+        setTimeout(function() {
+            redRound.style.background='red';
+
+        }, 1);
+
+        setTimeout(function() {
+            redRound.style.background='';
+        }, 2000);
+
+        setTimeout(function() {
+            yellowRound.style.background='yellow';
+        }, 2000);
+
+
+        setTimeout(function() {
+            yellowRound.style.background='';
+        },4000);
+
+        setTimeout(function() {
+            greenRound.style.background='green';
+        }, 4000);
+
+        setTimeout(function() {
+            greenRound.style.background='';
+        }, 6000);
+
+    }
+
+
+</script>
+</body>
+</html>

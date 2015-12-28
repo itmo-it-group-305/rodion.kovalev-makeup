@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title></title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="text-box">
+
+        <input type="text" value="Enter Your text!" id="MainBox">
+        <input type="button" value="Send the message" id="button">
+    </div>
+    <div class="chat4two" id="chat4two"></div>
+
+
+    <script type="text/javascript">
+
+        var button = document.getElementById('button');
+            button.addEventListener('click', handler);
+
+        function handler(){
+            var MainBox = document.getElementById('MainBox');
+            var avatar = document.createElement('img');
+            avatar.setAttribute('class', 'avatar');
+            avatar.setAttribute('src', 'http://fantasyflash.ru/avatar/ava_girl/image/avgirl99.gif');
+
+            var par = document.createElement('div');
+            var childText = document.createTextNode('Annette');
+            par.setAttribute('class', 'author');
+
+            var par2 = document.createElement('div');
+            par2.setAttribute("class", "message");
+            par2.setAttribute("id", "message-chat");
+
+            var chat4two = document.getElementById('chat4two');
+            chat4two.appendChild(avatar);
+            par.appendChild(childText);
+            chat4two.appendChild(par);
+            chat4two.appendChild(par2);
+
+            document.getElementById('message-chat').innerHTML = MainBox.value;
+
+
+        }
+
+
+    </script>
+</div>
+</body>
+</html>

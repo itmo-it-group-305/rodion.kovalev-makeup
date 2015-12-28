@@ -1,0 +1,49 @@
+.wrapper {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    background: orangered;
+    border-color: black;
+    border: solid;
+}
+#ChatBox {
+    height: 90px;
+
+}
+.chat4two{
+    background: blueviolet;
+    height: 300px;
+
+}
+
+.avatar {
+    float: left;
+    margin: 3%;
+    width: 5.5em;
+    height: 5.5em;
+    border: 1px solid black;
+}
+
+.author {
+    border: 1px solid black;
+    margin: 3% 0 0 30%;
+    width: 15em;
+    height: 1em;
+}
+
+.author p {
+    font-size: 100%;
+    display: inline;
+}
+
+.message {
+    border: 1px solid black;
+    margin: 3% 0 0 30%;
+    width: 15em;
+    height: 3.7em;
+}
+
+.newText {
+    width: 90%;
+    resize: none;
+}

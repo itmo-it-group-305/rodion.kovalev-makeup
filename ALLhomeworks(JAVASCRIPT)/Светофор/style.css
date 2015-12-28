@@ -1,0 +1,26 @@
+.red {
+    width: 8em;
+    height: 8em;
+    border: 2px solid gray;
+    margin: 1em auto 0;
+    /*background: red;*/
+    border-radius: 4em;
+}
+
+.yellow {
+    width: 8em;
+    height: 8em;
+    border: 2px solid gray;
+    margin: 1.5em auto 0;
+    /*background: yellow;*/
+    border-radius: 4em;
+}
+
+.green {
+    width: 8em;
+    height: 8em;
+    border: 2px solid gray;
+    margin: 1.5em auto 0;
+    /*background: green;*/
+    border-radius: 4em;
+}
