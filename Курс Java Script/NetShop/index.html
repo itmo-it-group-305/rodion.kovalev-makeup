@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopAndBox</title>
+    <link rel="stylesheet"  type="text/css" href="css.css">
+    <script src="../mustache.js"></script>
+    <script src="jquery.js"></script>
+        <script src="java.js"></script>
+
+</head>
+<body>
+
+<p class="slide"><a href="#" class="btn-slide">Скрыть/Вернуть панель</a></p>
+
+
+ <div class="border">
+     <h2>Название:Дрова</h2>
+     <img src="//rus-les.info/wp-content/uploads/2013/11/Drova-berezovyie-vyazanka-300x300.jpg">
+     <p>описание: Для топки печки</p>
+     <button class="button_add" code="1017" name="Дрова" price="200">Добавить товар</button>
+ </div>
+
+<!--корзина здесь-->
+ <div class="panel">
+     <h1 style="text-align: center">Корзина</h1>
+     <h3 style="text-align: center">Сюда перемещается все, что вы добавили</h3>
+     <div  id="basket">
+         <div class="total-sum">Сумма набежала: 0</div>
+     </div>
+     <ul>
+         <li>
+
+         </li>
+     </ul>
+
+     <button  class="deleteAll" style="width: 20%; margin-left: 70%; height: 70px; color: white; background: yellowgreen">Удалить</button>
+
+
+ </div>
+
+ <div class="border">
+     <h2>Название:Спички</h2>
+     <img src="http://www.fantasiya.net/_pu/0/54144878.jpg">
+     <p>описание: Для розжига</p>
+     <button class="button_add" code="1018" name="Спички" price="10">Добавить товар</button>
+ </div>
+ <div class="border">
+     <h2>Название: Мука</h2>
+     <img src="http://ukr-produkt.com/img/cms/445752_stol_boke_ploshka_muka_zerno_meshkovina_skalka_1680x1050_(www.GdeFon.ru).jpg">
+     <p>описание: Для выпечки пирожков</p>
+     <button class="button_add" code="1019" name="Мука" price="20">Добавить товар</button>
+ </div>
+ <div class="border">
+     <h2>Название:Вода</h2>
+     <img src="http://static6.depositphotos.com/1177973/668/i/950/depositphotos_6686373-Big-bottle-of-water-isolated-on-a-white-background.jpg">
+     <p>описание: Для того, чтобы тушить пожар</p>
+     <button  class="button_add" code="1021" name="Вода" price="5000">Добавить товар</button>
+ </div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+<!--//1.Вешаем обработчик
+jQuery('body).on('click', '.button', function (e){-->
+<!--console.log(e); этот объект мы и будем потрашить;-->
+<!-- -->
+<!-- -->
+<!--jQuery('#basket').html ('str')-->
+<!--.append('str')-->
+<!-- -->
+<!-- -->
+<!--str '<pix>'+ name '<input>'-->
